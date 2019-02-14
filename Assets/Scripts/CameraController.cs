@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-
+    //basic camera class
 	//the goal of this code is so that the camera may follow the ball for all movement BUT it does not focus on ONE surface point of the ball (equals crazy camera movement)
 	public GameObject player;
 	private Vector3 offset;
